@@ -1,0 +1,23 @@
+[Replacing Audio]
+requirements:
+1: Unity 2018.1.6
+2: UABE
+how:
+1: in Unity 2018.1.6 create a empty project
+2: get the songs you want to replace the original with and put them in the project with the same name as the original($100Bills, etc)
+3: build the project
+4: open UABE and open the .assets file in the project you built select the AudioClip click "export dump"
+5: go to where you build it go to *buildname*_data/ and copy the .resource that is generated to the beat saber dir
+6: open the song dumps and make sure the string "m_Name" matches the orginal one if not change them
+7: open UABE open "sharedassets0.assets" from beat saber and select "U2019.2.0f1" than hit ok, once the list open's hit type two times
+8: cick on the audioclip(only one at a time) and click "Import dump" and select the one you exported from the project you built, once done hit ok save it and replace the original(don't try and save over it save it someone else and replace manually)
+9: profit!?!!
+
+
+
+[Replacing BeatMapData]
+NOTE: this is me trying to remember how i did it years ago, so a few things might be off.
+Requirements:
+1: UABE
+HOW:
+same as replacing audio, just convert the PC beatmapdata using this tool and replace it the same way you do audio.
